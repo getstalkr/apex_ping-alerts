@@ -1,12 +1,19 @@
 {
-  "name": "@stalkr-io/github",
-  "version": "0.1.0",
-  "description": "Stalkr Github webhook.",
+  "name": "@getstalkr/apex_ping-alerts",
+  "version": "1.0.0",
+  "description": "@getstalkr micro service which feeds our clients with Apex Ping response time alerts.",
   "license": "MIT",
-  "repository": {},
-  "author": "matt <@ythecombinator>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getstalkr/apex_ping-alerts"
+  },
+  "author": "Stalkr Foundation <@getstalkr>",
   "keywords": [
-    ""
+    "github",
+    "infrastructure",
+    "devops",
+    "monitoring",
+    "stalkr-plugin"
   ],
   "files": [
     "dist/"
