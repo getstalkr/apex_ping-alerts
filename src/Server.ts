@@ -14,9 +14,7 @@ export class Server {
       this.server = micro(
         async (req, res) => {
 
-          const { triggered_at, alert } = await json(req);
-
-          const { value } = alert;
+          const { triggered_at, value } = await json(req);
 
           const event = new Alert(
             Date.parse(triggered_at),
