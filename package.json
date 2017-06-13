@@ -15,6 +15,9 @@
     "monitoring",
     "stalkr-plugin"
   ],
+  "engines": {
+    "node": "8.0.0"
+  },
   "files": [
     "dist/"
   ],
@@ -62,9 +65,6 @@
     "typescript": "^2.3.2",
     "webpack": "^2.5.1",
     "yargs": "^8.0.1"
-  },
-  "engines": {
-    "node": ">=4.0.0"
   },
   "nyc": {
     "include": [
